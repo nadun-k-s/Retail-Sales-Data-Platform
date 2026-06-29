@@ -1,6 +1,6 @@
 # 🚀 Retail Sales Data Platform
 
-> **An End-to-End Event-Driven Data Engineering Pipeline using AWS, Snowflake, Docker, Python and Power BI**
+> **An End-to-End Event-Driven Data Engineering Pipeline using AWS, Snowflake, Docker and Python**
 
 <p align="center">
 
