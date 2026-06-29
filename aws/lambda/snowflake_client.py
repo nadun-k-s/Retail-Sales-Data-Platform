@@ -27,11 +27,37 @@ class SnowflakeClient:
         finally:
             cursor.close()
 
-    def run_etl(self):
-        return self.execute("CALL RETAIL_DW.CONTROL.SP_RUN_FULL_ETL();")
+    # def run_etl(self):
+    #     return self.execute("CALL RETAIL_DW.CONTROL.SP_RUN_FULL_ETL();")
 
-    def get_version(self):
-        return self.execute("SELECT CURRENT_VERSION();")
+    def run_customer_etl(self):
+        cursor = self.connection.cursor()
+        try:
+            cursor.execute("CALL RETAIL_DW.CONTROL.SP_PROCESS_CUSTOMER();")
+            return cursor.fetchone()
+        finally:
+            cursor.close()
+
+
+    def run_product_etl(self):
+        cursor = self.connection.cursor()
+        try:
+            cursor.execute("CALL RETAIL_DW.CONTROL.SP_PROCESS_PRODUCT();")
+            return cursor.fetchone()
+        finally:
+            cursor.close()
+
+
+    def run_sales_etl(self):
+        cursor = self.connection.cursor()
+        try:
+            cursor.execute("CALL RETAIL_DW.CONTROL.SP_PROCESS_SALES();")
+            return cursor.fetchone()
+        finally:
+            cursor.close()
+
+    # def get_version(self):
+    #     return self.execute("SELECT CURRENT_VERSION();")
 
     def close(self):
         if self.connection:

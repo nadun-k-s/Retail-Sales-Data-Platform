@@ -1,5 +1,22 @@
-venv/
+# Python
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*.egg-info/
+
+# Virtual Environment
+venv/
+.venv/
+
+# macOS
 .DS_Store
+
+# Lambda build artifacts
+deployment/
+lambda.zip
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
