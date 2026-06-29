@@ -27,8 +27,6 @@ The processed data is optimized for reporting and business intelligence using a 
 
 # 🏗 Solution Architecture
 
-> Replace the image path below with your architecture diagram.
-
 ```text
 architecture/aws-architecture.png
 ```
@@ -207,7 +205,7 @@ This model enables fast analytical queries and efficient Power BI reporting.
 ## Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/Retail-Sales-Data-Platform.git
+git clone https://github.com/nadun-k-s/Retail-Sales-Data-Platform.git
 ```
 
 ---
@@ -224,7 +222,8 @@ docker build \
 ## Push to Amazon ECR
 
 ```bash
-docker push <your-ecr-uri>
+docker push \     
+135090718459.dkr.ecr.eu-north-1.amazonaws.com/retail-snowflake-etl:latest
 ```
 
 ---
@@ -264,7 +263,7 @@ docs/screenshots/architecture.png
 ## AWS Lambda
 
 ```
-docs/screenshots/lambda-success.png
+docs/screenshots/lambda.png
 ```
 
 ---
