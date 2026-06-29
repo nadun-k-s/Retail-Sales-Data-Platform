@@ -294,6 +294,7 @@ docs/screenshots/etl-audit-log.png
 
 # 🎯 Future Enhancements
 
+* Power BI Dashboard
 * GitHub Actions CI/CD
 * Terraform Infrastructure as Code
 * Snowflake Streams
@@ -322,7 +323,6 @@ This project demonstrates practical experience with:
 * Docker
 * Python
 * SQL
-* Business Intelligence
 
 ---
 
