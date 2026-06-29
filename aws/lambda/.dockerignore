@@ -1,0 +1,8 @@
+venv/
+deployment/
+__pycache__/
+*.pyc
+lambda.zip
+.git
+.gitignore
+README.md
