@@ -8,7 +8,7 @@
 ![Snowflake](https://img.shields.io/badge/Snowflake-Data%20Warehouse-29B5E8?style=for-the-badge\&logo=snowflake)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange?style=for-the-badge\&logo=amazonaws)
 ![Docker](https://img.shields.io/badge/Docker-Container-blue?style=for-the-badge\&logo=docker)
-![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge\&logo=powerbi)
+<!-- ![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge\&logo=powerbi) -->
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </p>
